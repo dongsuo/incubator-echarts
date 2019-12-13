@@ -1682,7 +1682,7 @@ echartsProto.clear = function () {
         disposedWarning(this.id);
         return;
     }
-    this.setOption({ series: [] }, true);
+    this.setOption({ }, true);
 };
 
 /**
